@@ -30,3 +30,19 @@ a {
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
 }
+
+/* Header  */
+.header-page {
+    background-color: orange;
+    height: 100px;
+}
+
+
+
+
+
+/* footer */
+.footer-page {
+    background-color: black;
+    height: 150px;
+}
