@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,
+ol {
+    list-style:none; 
+    padding:0;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+   
+}
+ /* FLEX  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Formula per calcolarsi le colonne  */
+.col-4 {
+	flex-basis: calc((100% / 12) * 4);
+}
