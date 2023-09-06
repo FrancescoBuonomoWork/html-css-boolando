@@ -101,16 +101,27 @@ figure > img {
     text-decoration: line-through;
 }
 /* hover  */
+.base-img{
 
-.hovered-img {
-    
-    position: absolute;
-    z-index: -1;
-    
 }
+.hovered-img {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* quando card__img viene overato  */
+.card__img:hover .hovered-img {
+    opacity: 1;
+    position: static;
 
-
-
+}
+.card__img:hover .base-img{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 /* footer */
 .footer-page {
