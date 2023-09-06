@@ -58,9 +58,14 @@ figure > img {
     right: 20px;
     
 }
-.price-redution{
-    position: absolute;
+.card__elements{
+    position:absolute;
     bottom: 30px;
+    left: 0;
+}
+.price-redution{
+    /* position: absolute;
+    bottom: 30px; */
     background-color: red;
     color: white;
     padding: 3px;
@@ -69,9 +74,9 @@ figure > img {
 
 .sustainability{
     /* display: inline-block; */
-    position: absolute;
+    /* position: absolute;
     bottom: 30px;
-    left: 40px;
+    left: 40px; */
     background-color: green;
     color: white;
     padding: 3px;
