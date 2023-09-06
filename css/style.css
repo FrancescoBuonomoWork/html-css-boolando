@@ -101,9 +101,12 @@ figure > img {
     text-decoration: line-through;
 }
 /* hover  */
+
 .hovered-img {
-    position: relative;
+    
+    position: absolute;
     z-index: -1;
+    
 }
 
 
