@@ -68,7 +68,7 @@ figure > img {
 }
 
 .sustainability{
-    display: inline-block;
+    /* display: inline-block; */
     position: absolute;
     bottom: 30px;
     left: 40px;
