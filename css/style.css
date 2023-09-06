@@ -46,6 +46,38 @@ figure > img {
     background-color: orange;
     height: 100px;
 }
+/* MAIN  */
+
+.card__img{
+    position: relative;
+}
+.heart {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.price-redution{
+    position: absolute;
+    bottom: 30px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    
+}
+
+.sustainability{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background-color: green;
+    color: white;
+    padding: 3px;
+    margin-left: 5px;
+}
+
 
 
 
@@ -55,4 +87,11 @@ figure > img {
 .footer-page {
     background-color: black;
     height: 150px;
+}
+
+
+/* debug */
+
+.debug .card {
+    background-color: blue;
 }
