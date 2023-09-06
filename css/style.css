@@ -17,6 +17,13 @@ a {
     color: currentColor;
    
 }
+figure > img {
+	display: block;
+	width: 100%;
+}
+.main-page {
+	padding: 80px 0;
+}
  /* FLEX  */
 .row {
     display: flex;
@@ -29,6 +36,9 @@ a {
 /* Formula per calcolarsi le colonne  */
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
+}
+.row > [class^='col'] {
+	padding: 20px;
 }
 
 /* Header  */
