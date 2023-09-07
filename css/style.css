@@ -119,19 +119,19 @@ figure > img {
     left: 0;
 }
 /* quando card__img viene overato  */
-.card__img:hover .hovered-img {
+.card:hover .hovered-img {
     opacity: 1;
     position: static;
 
 }
-.card__img:hover .base-img{
+.card:hover .base-img{
     opacity: 0;
     position: absolute;
     top: 0;
     right: 0;
 }
 /* cuore rosso quando viene hoverato  */
-.card__img:hover .heart{
+.card:hover .heart{
     color: red;
 }
 /* footer */
