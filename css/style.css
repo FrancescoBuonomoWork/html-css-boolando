@@ -38,7 +38,8 @@ figure > img {
 	flex-basis: calc((100% / 12) * 4);
 }
 .row > [class^='col'] {
-	padding: 20px;
+	padding: 0 10px;
+    margin-bottom: 20px;
 }
 
 /* Header  */
@@ -59,6 +60,12 @@ figure > img {
     position: absolute;
     top: 10px;
     right: 20px;
+    width: 40px;
+    aspect-ratio: 1;
+    background-color: white;
+    line-height: 40px;
+    text-align: center;
+
     
 }
 .card__elements{
